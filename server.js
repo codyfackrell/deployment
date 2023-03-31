@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
 
-app.use(express.static(`${__dirname}/public`))
+app.use(express.static(`${__dirname}/client`))
 
-app.listen(4000, () => console.log('Server running away at 4000'))
+app.listen(4848, () => console.log('Winner Winner 4848'))
